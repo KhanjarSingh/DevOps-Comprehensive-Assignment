@@ -1,6 +1,7 @@
-import { useEffect, useState } from 'react'
-import { getUsers, createUser } from './api'
 import './App.css'
+
+import { createUser, getUsers } from './api'
+import { useEffect, useState } from 'react'
 
 function App() {
   const [users, setUsers] = useState([])

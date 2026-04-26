@@ -2,7 +2,7 @@ import axios from "axios";
 
 // Create axios instance
 const API = axios.create({
-  baseURL: "/api",
+  baseURL: "http://localhost:3000/api",
 });
 
 // Get all users
